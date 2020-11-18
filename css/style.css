@@ -28,10 +28,17 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .title {
   font-size: 3rem;
+}
+
+form {
+  width: 100%;
 }
 
 #todoInput {
@@ -65,6 +72,7 @@ body {
 }
 
 ul {
+  width: 100%;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -77,6 +85,7 @@ li {
   border-top: 1px solid #ddd;
   cursor: pointer;
   position: relative;
+  overflow: hidden;
 }
 
 span {
@@ -93,6 +102,11 @@ span {
 
 .done {
   text-decoration: line-through;
+  color: #666;
+}
+
+small {
+  margin-top: 1em;
   color: #666;
 }
 /*# sourceMappingURL=style.css.map */

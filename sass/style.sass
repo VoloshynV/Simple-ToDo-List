@@ -17,10 +17,12 @@ body
     display: flex
     flex-direction: column
     justify-content: center
+    align-items: center
 
 .title
     font-size: 3rem
-
+form
+    width: 100%
 #todoInput
     width: 100%
     padding: 1em
@@ -33,6 +35,7 @@ body
         font-size: 1.4em
         font-weight: 500
 ul
+    width: 100%
     list-style-type: none
     padding: 0
     margin: 0
@@ -43,6 +46,7 @@ li
     border-top: 1px solid #ddd
     cursor: pointer
     position: relative
+    overflow: hidden
 span
     position: absolute
     top: 50%
@@ -54,4 +58,8 @@ span
     color: #444
 .done
     text-decoration: line-through
+    color: #666
+
+small
+    margin-top: 1em
     color: #666
